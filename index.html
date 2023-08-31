@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <style>
+    .attribution {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .card {
+      max-width: 300px;
+      width: 100%;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      box-sizing: border-box;
+      transition: transform 0.2s ease-in-out;
+      margin: 0 auto;
+    }
+
+
+    .card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-content {
+      margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .card {
+        max-width: 100%;
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+    <div class="page">
+
+      <div class="card">
+        <img src="./images/image-qr-code.png" alt="img">
+      <div class="card-content">
+        <h4>Improve Frontend skill by building projects</h4>
+        <p>scan QR code to visit frontend metor and take you skill to next level </p>
+      </div>
+    </div>
+
+<footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Jiteshkumar Yadav</a>.
+  </div>
+</footer>
+</div>
+  </body>
+
+</html>
